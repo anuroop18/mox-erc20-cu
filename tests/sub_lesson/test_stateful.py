@@ -1,7 +1,9 @@
-from contracts.sub_lesson import stateful_fuzz_solvable
 from boa.test.strategies import strategy
-from hypothesis.stateful import RuleBasedStateMachine, rule
 from hypothesis import settings
+from hypothesis.stateful import RuleBasedStateMachine, rule
+
+from contracts.sub_lesson import stateful_fuzz_solvable
+
 
 class StatefulFuzzer(RuleBasedStateMachine):
     def __init__(self):

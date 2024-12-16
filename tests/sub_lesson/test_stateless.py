@@ -1,7 +1,9 @@
 import pytest
-from contracts.sub_lesson import stateless_fuzz_solvable
-from hypothesis import given, HealthCheck, settings
 from boa.test.strategies import strategy
+from hypothesis import HealthCheck, given, settings
+
+from contracts.sub_lesson import stateless_fuzz_solvable
+
 
 @pytest.fixture(scope="function")
 def contract():
