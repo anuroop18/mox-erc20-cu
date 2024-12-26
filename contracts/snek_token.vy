@@ -44,3 +44,4 @@ def super_mint():
 # we can call super_mint
 # assert self.totalSupply == self.initial_supply
 # total supply should be equal to the sum of all user's balances.
+

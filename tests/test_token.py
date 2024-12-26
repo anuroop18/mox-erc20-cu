@@ -1,5 +1,4 @@
 import boa
-import pytest
 
 from script.deploy import INITIAL_SUPPLY, deploy
 
